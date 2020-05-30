@@ -5,3 +5,11 @@ exports.kapi = function(log) {
 exports.papi = function(log) {
     console.error( "KAPI ERROR", log );
 }
+
+exports.tapi = function(log) {
+    console.warn( "KAPI WARN", log );
+}
+
+exports.zapi = function(log) {
+    console.info( "KAPI INFO", log );
+}
